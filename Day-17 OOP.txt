@@ -1,0 +1,82 @@
+Day-17 OOP
+============
+(Object Oriented Programming)
+------------------------------
+Class and Objects:
+====================
+Class- Class is a group of elements having common properties and behavior.
+   Object- Object is an individual element in the group of elements having physical properties and physical behaviors.
+
+2. Class is virtual
+   Object is Physical or real
+
+3. Class is virtual encapsulation of properties and behaviors.
+   Object is physical encapsulation of properties and behaviors.
+
+4. Class is Generalization
+   Object is specialization
+
+5. Class is a blue print for Objects
+   Object is instance of a class.
+
+Class Structure in java
+========================
+A basic class in java has the following structure
+
+//access modifier + class keyword + class name
+public class ClassName{
+//fields(attributes/properties)
+//datatypes + variable name
+private datatype fieldname;
+
+//methods(behaviors/operations)
+public returnType methodName(parameters){
+//method body
+//logic and operations
+}
+}
+
+Member methods of a class
+--------------------------
+Member methods are functions defined within a class that perform operations on the class data or provide certain functionality. They represent the behaviors of the objects created from the class.
+
+Types of member methods
+------------------------
+1.Accessor Methods(Getters): return the value of primitive attribute.
+2.Mutator Methods(Setter): modify the value of primitive attributes.
+3.Operations Methods: Perform operations using class attribute.
+4.static Methods: Belonging to the class rather than objects.
+5.final Methods: Cannot be overridden by subclass.
+6.abstract Methods: Method without implementation(used in abstract class).
+
+Method structure
+-----------------
+accessModifier  [static][final] returnType
+methodName(ParameterList){
+//method body
+//logic and operations
+//return value; //if return type is not void
+}
+
+
+Creating Objects
+==================
+ClassName objName=new ClassName();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
